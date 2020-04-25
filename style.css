@@ -1,6 +1,5 @@
 h1{
-    font-size:17px;
-    
+    font-size:17px;  
 }
 
 
@@ -17,25 +16,26 @@ display: inline;
 background-color:#27ae60 ;
 }
 
-.all{
-flex-direction: column;
-}
-
 .alert{
     background-color:  #f8d7da;
     color:#721c24;
     border:1px solid #f5c6cb ;
     border-radius:5px;;
     padding: 10px 40px;
-    display: inline;
+    display:inline
     
 }
 
-
 .list-group{
     border-color:#DFDFDF ;
+    text-align: center;
 }
 
-.list-items{
+.list-group_item{
     border-radius: 5px;
+    border: 1px solid  #DFDFDF;
+    display: block;
+    padding: 10px 40px;
+    width: 10%;
+    
 }
