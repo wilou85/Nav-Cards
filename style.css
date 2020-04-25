@@ -1,6 +1,6 @@
 h1{
     font-size:17px;
-    color:#2c3e50;
+    
 }
 
 
@@ -13,20 +13,29 @@ padding: 10px 40px;
 display: inline;
 }
 
-div:hover{
+#bouton:hover{
 background-color:#27ae60 ;
 }
 
-.btn{
-    color:white
+.all{
+flex-direction: column;
 }
 
 .alert{
     background-color:  #f8d7da;
     color:#721c24;
-    border-color: #f5c6cb ;
-    font-weight:bold;
+    border:1px solid #f5c6cb ;
     border-radius:5px;;
     padding: 10px 40px;
-    display: inline;   
+    display: inline;
+    
+}
+
+
+.list-group{
+    border-color:#DFDFDF ;
+}
+
+.list-items{
+    border-radius: 5px;
 }
