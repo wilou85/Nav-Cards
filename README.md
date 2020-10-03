@@ -1,2 +1,2 @@
 # Training
-Challenges and functionnalities
+Nav bar & cards via boostrap
